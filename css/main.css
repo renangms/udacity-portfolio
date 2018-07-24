@@ -1,0 +1,72 @@
+body {
+    font-family: Lora;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.page-header {
+    display: flex;
+    border-bottom: 2px solid #7d97ad;
+}
+
+.page-header .text {
+    margin: 0 0 0 auto;
+    text-align: right;
+    font-size: 1.0em;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo {
+    max-width: 128px;
+    max-height: 128px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-title {
+    color: #7d97ad;
+    font-size: 1.5em;
+}
+
+.project {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project-title {
+    color: #2d3c49;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0.2em;
+}
+
+.project .link {
+    text-decoration: none;
+    color: #2d3c49;
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: right;
+    margin: 1em;
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        display: none;
+    }
+    .page-header .text {
+        margin: auto auto;
+    }
+    footer {
+        text-align: center;
+    }
+}
